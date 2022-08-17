@@ -11,8 +11,15 @@ expected output:
   vowel a
 
 
-words that begin with a vowel get "way" added to the end
-  ex: away = awayway
+Test: adds "way" to the end of words that begin with a vowel
+Code: 
+  const text = "hello";
+  pigLatin(text);
+  const text2 = "along";
+  pigLatin(text2);
+Expected output:
+  hello
+  alongway
 
 words that begin with 1 consonant:
   move the first letter to the end
